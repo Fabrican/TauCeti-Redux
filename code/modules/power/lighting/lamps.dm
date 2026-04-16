@@ -38,6 +38,12 @@
 
 	var/rigged = FALSE // true if rigged to explode
 
+/obj/machinery/light/dim
+	icon_state = "tube2"
+	base_icon_state = "tube2"
+	glow_icon_state = "tube2"
+	exposure_icon_state = "cone"
+
 /obj/machinery/light/smart
 	icon_state = "stube"
 	base_icon_state = "tube" // not a typo
@@ -116,7 +122,7 @@
 			stack_trace("Bad lighting code for [src] [src.type]")
 			mode = global.light_modes_by_type[/datum/light_mode/default]
 
-		var/new_color = force_override_color || mode.color
+		var/new_color = force_override_color || (istype(src, /obj/machinery/light/dim) ? "#ffffff" : mode.color)
 		var/new_power = force_override_power || mode.power
 		var/new_range = force_override_range || mode.range
 
