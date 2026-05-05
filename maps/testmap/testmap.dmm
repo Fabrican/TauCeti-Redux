@@ -3,6 +3,7 @@
 "ac" = (/turf/simulated/wall,/area)
 "ad" = (/obj/structure/window/thin/reinforced{icon_state = "rwindow"; dir = 9},/turf/unsimulated/floor,/area/centcom)
 "ae" = (/turf/unsimulated/wall,/area/start)
+"af" = (/obj/effect/landmark/start,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "ag" = (/obj/machinery/light{dir = 8},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "ah" = (/obj/machinery/gateway{dir = 9},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "ai" = (/obj/machinery/gateway{dir = 1},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
@@ -15,6 +16,7 @@
 "ap" = (/obj/machinery/gateway{dir = 10},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "aq" = (/obj/machinery/gateway,/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "ar" = (/obj/machinery/gateway{dir = 6},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
+"as" = (/obj/effect/landmark/latejoin,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "au" = (/obj/structure/table,/obj/item/weapon/hemostat{pixel_y = 4},/obj/item/weapon/cautery,/obj/machinery/camera{pixel_x = 22; network = list("SS13","Medical"); c_tag = "Surgery Operating 2"},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "av" = (/obj/structure/table,/obj/item/weapon/retractor,/obj/item/weapon/surgicaldrill,/obj/machinery/light{dir = 1},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aw" = (/obj/structure/table,/obj/item/weapon/scalpel,/obj/item/weapon/circular_saw{pixel_y = 10},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
@@ -29,8 +31,6 @@
 "aF" = (/obj/machinery/computer/operating,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aG" = (/mob/living/carbon/monkey/tajara,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aH" = (/turf/unsimulated/floor,/area/start)
-"aL" = (/obj/effect/landmark/start{name = "Fallback-Start"},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
-"aM" = (/obj/effect/landmark{name = "JoinLate"},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aN" = (/obj/effect/landmark{name = "Observer-Start"},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aO" = (/mob/living/carbon/monkey,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aP" = (/mob/living/carbon/monkey/diona,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
@@ -98,7 +98,7 @@ aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaababababababababababalalalalalabababababab
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabauavawaxayayayaWazayayayayayayaXaAaBayayaXayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayayayayayayayaCazayayayayayayayaAaBayaDayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayaEaFayayayayazazayayayayayayayaAaBayayaGayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aeaeaeaeaeaeaeaHaeaeaeaeaeaeaeaaaaaaaaabayadadadayaLayayayayaMaMaNayayayaAaBaOayayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aeaeaeaeaeaeaeaHaeaeaeaeaeaeaeaaaaaaaaabayadadadayafayayayayasasaNayayayaAaBaOayayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayayayayayayayayayayayayayayayayaAaBaPayayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayayayayayayayayayayayayayayayayaAaBaybrayaOabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayaYayayayayayaYayayayayayayayaYaAaBayayaYayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
