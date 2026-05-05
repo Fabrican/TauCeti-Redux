@@ -1,6 +1,7 @@
 "aa" = (/turf/environment/space,/area)
 "ab" = (/turf/simulated/wall,/area/centcom)
 "ac" = (/turf/simulated/wall,/area)
+"ad" = (/obj/structure/window/thin/reinforced{icon_state = "rwindow"; dir = 9},/turf/unsimulated/floor,/area/centcom)
 "ae" = (/turf/unsimulated/wall,/area/start)
 "ag" = (/obj/machinery/light{dir = 8},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "ah" = (/obj/machinery/gateway{dir = 9},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
@@ -28,7 +29,6 @@
 "aF" = (/obj/machinery/computer/operating,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aG" = (/mob/living/carbon/monkey/tajara,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aH" = (/turf/unsimulated/floor,/area/start)
-"aI" = (/obj/structure/window/fulltile/reinforced{icon_state = "gr_window_reinforced"; grilled = 1},/turf/unsimulated/floor,/area/centcom)
 "aL" = (/obj/effect/landmark/start{name = "Fallback-Start"},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aM" = (/obj/effect/landmark{name = "JoinLate"},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aN" = (/obj/effect/landmark{name = "Observer-Start"},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
@@ -98,7 +98,7 @@ aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaababababababababababalalalalalabababababab
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabauavawaxayayayaWazayayayayayayaXaAaBayayaXayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayayayayayayayaCazayayayayayayayaAaBayaDayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayaEaFayayayayazazayayayayayayayaAaBayayaGayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aeaeaeaeaeaeaeaHaeaeaeaeaeaeaeaaaaaaaaabayaIaIaIayaLayayayayaMaMaNayayayaAaBaOayayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aeaeaeaeaeaeaeaHaeaeaeaeaeaeaeaaaaaaaaabayadadadayaLayayayayaMaMaNayayayaAaBaOayayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayayayayayayayayayayayayayayayayaAaBaPayayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayayayayayayayayayayayayayayayayaAaBaybrayaOabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabayaYayayayayayaYayayayayayayayaYaAaBayayaYayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
