@@ -3,7 +3,7 @@
 "ac" = (/turf/simulated/wall,/area)
 "ad" = (/obj/structure/table,/obj/item/weapon/hemostat{pixel_y = 4},/obj/item/weapon/cautery,/obj/machinery/camera{pixel_x = 22; network = list("SS13","Medical"); c_tag = "Surgery Operating 2"},/turf/simulated/floor,/area/centcom)
 "ae" = (/turf/unsimulated/wall,/area/start)
-"af" = (/obj/structure/table,/obj/item/weapon/retractor,/obj/item/weapon/surgicaldrill,/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/centcom)
+"af" = (/obj/structure/table,/obj/item/weapon/retractor,/obj/item/weapon/surgicaldrill,/obj/machinery/light/smart{icon_state = "stube"; dir = 1},/turf/simulated/floor,/area/centcom)
 "ag" = (/obj/machinery/light{dir = 8},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "ah" = (/obj/machinery/gateway{dir = 9},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "ai" = (/obj/machinery/gateway{dir = 1},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
@@ -19,9 +19,9 @@
 "as" = (/obj/structure/table,/obj/item/weapon/scalpel,/obj/item/weapon/circular_saw{pixel_y = 10},/turf/simulated/floor,/area/centcom)
 "at" = (/obj/structure/table,/obj/item/weapon/bonegel{pixel_x = 4; pixel_y = 3},/obj/item/weapon/FixOVein{pixel_x = -6; pixel_y = 1},/obj/item/weapon/bonesetter,/turf/simulated/floor,/area/centcom)
 "au" = (/turf/simulated/floor,/area/centcom)
-"av" = (/obj/structure/table/reinforced,/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/centcom)
+"av" = (/obj/structure/table/reinforced,/obj/machinery/light/smart{icon_state = "stube"; dir = 1},/turf/simulated/floor,/area/centcom)
 "aw" = (/obj/structure/table/reinforced,/turf/simulated/floor,/area/centcom)
-"ax" = (/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/centcom)
+"ax" = (/obj/machinery/light/smart{icon_state = "stube"; dir = 1},/turf/simulated/floor,/area/centcom)
 "ay" = (/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "az" = (/turf/simulated/floor{icon_state = "bot"},/area/centcom)
 "aA" = (/obj/structure/table/reinforced,/obj/item/device/mmi,/turf/simulated/floor,/area/centcom)
@@ -34,15 +34,15 @@
 "aH" = (/turf/unsimulated/floor,/area/start)
 "aI" = (/obj/effect/landmark/latejoin,/turf/simulated/floor,/area/centcom)
 "aJ" = (/obj/effect/landmark{name = "Observer-Start"},/turf/simulated/floor,/area/centcom)
-"aK" = (/obj/machinery/light,/turf/simulated/floor,/area/centcom)
+"aK" = (/obj/machinery/light/smart{icon_state = "stube"; dir = 1},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aL" = (/obj/effect/decal/turf_decal{icon_state = "warn"; dir = 1},/turf/simulated/floor,/area/centcom)
-"aM" = (/obj/machinery/light{dir = 8},/turf/simulated/floor,/area/centcom)
-"aN" = (/obj/machinery/light{dir = 4},/turf/simulated/floor,/area/centcom)
+"aM" = (/obj/machinery/light/smart,/turf/simulated/floor,/area/centcom)
+"aN" = (/obj/machinery/light/smart,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aO" = (/mob/living/carbon/monkey,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aP" = (/mob/living/carbon/monkey/diona,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 "aQ" = (/obj/effect/decal/turf_decal{icon_state = "warn"},/turf/simulated/floor,/area/centcom)
-"aX" = (/obj/machinery/light{dir = 1},/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
-"aY" = (/obj/machinery/light,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
+"aR" = (/obj/machinery/light/smart{icon_state = "stube"; dir = 8},/turf/simulated/floor,/area/centcom)
+"aS" = (/obj/machinery/light/smart{icon_state = "stube"; dir = 4},/turf/simulated/floor,/area/centcom)
 "br" = (/mob/living/carbon/monkey/skrell,/turf/unsimulated/floor{icon_state = "floor"},/area/centcom)
 
 (1,1,1) = {"
@@ -97,15 +97,15 @@ aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaabagahaiajakabaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaabalamanaoalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaabalapaqaralabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaababababababababababalalalalalabababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabadafasatauauauavawauauauauauauaxauazayayaXayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabadafasatauauauavawauauauauauauaxauazayayaKayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabauauauauauauauaAawauauauauauauauauazayaDayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabauaBaCauauauauawawauauauauauauauauazayayaGayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaHaeaeaeaeaeaeaeaaaaaaaaabauaEaEaEauaFauauauauaIaIaJauauauauazaOayayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabauauauauauauauauauauauauauauauauauazaPayayayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabauauauauauauauauauauauauauauauauauazaybrayaOabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabauaKauauauauauaKauauauauauauauaKauazayayaYayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaabauaMauauauauauaMauauauauauauauaMauazayayaNayabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaababababababababababaLaLaLaLaLabababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaabaMauauauaNabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaabaRauauauaSabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaabauauauauauabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaabaQaQaQaQaQabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababaLaLaLababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
