@@ -69,7 +69,7 @@ SUBSYSTEM_DEF(ticker)
 	login_music = pick(\
 	'sound/lobby/title1.ogg',\
 	'sound/lobby/title2.ogg',\
-	'sound/lobby/title3.s3m',\
+	'sound/lobby/title3.ogg',\
 	'sound/lobby/title4.ogg')
 
 /datum/controller/subsystem/ticker/Initialize(timeofday)
