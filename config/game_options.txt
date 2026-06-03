@@ -38,12 +38,12 @@ REVIVAL_BRAIN_LIFE -1
 
 
 ## These modify the run/walk speed of all mobs before the mob-specific modifiers are applied.
-# RUN_SPEED 3
+# RUN_SPEED 4
 # WALK_SPEED 5
 
 
 ## The variables below affect the movement of specific mob types.
-HUMAN_DELAY 0
+HUMAN_DELAY 1
 ROBOT_DELAY 0
 MONKEY_DELAY 0
 ALIEN_DELAY 0
