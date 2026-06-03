@@ -49,7 +49,7 @@ SUBSYSTEM_DEF(ticker)
 	var/force_end = FALSE // set TRUE to forse round end and show credits
 
 	var/end_timer_id
-
+/*
 /datum/controller/subsystem/ticker/PreInit()
 	login_music = pick(\
 	'sound/music/1.ogg',\
@@ -64,7 +64,13 @@ SUBSYSTEM_DEF(ticker)
 	'sound/lobby/hanging_masses.ogg',\
 	'sound/lobby/admiral-station-13.ogg',\
 	'sound/lobby/robocop_gb_intro.ogg')
-
+*/
+/datum/controller/subsystem/ticker/PreInit()
+	login_music = pick(\
+	'sound/lobby/title1.ogg',\
+	'sound/lobby/title2.ogg',\
+	'sound/lobby/title3.s3m',\
+	'sound/lobby/title4.ogg')
 
 /datum/controller/subsystem/ticker/Initialize(timeofday)
 	global.syndicate_code_phrase = generate_code_phrase()
