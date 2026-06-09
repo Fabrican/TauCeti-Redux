@@ -29,6 +29,10 @@
 	fitting = LAMP_FITTING_TUBE
 	light_mode = /datum/light_mode/default
 
+/obj/item/weapon/light/tube/grimtube
+	name = "grim tube"
+	light_mode = /datum/light_mode/default/grim
+
 /obj/item/weapon/light/tube/smart // todo: own white colb sprite (+color!)
 	name = "smart light tube"
 	desc = "A replacement smart light tube. Can be used with central lighting control systems!"

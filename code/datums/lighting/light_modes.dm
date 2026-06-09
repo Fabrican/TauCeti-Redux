@@ -29,12 +29,19 @@ var/global/list/datum/light_mode/light_modes_by_name // for admins, may differ i
 	power = DEFAULT_POWER
 	range = DEFAULT_RANGE
 
+/datum/light_mode/default/grim
+	name = "Default Grim"
+
+	color = "#ffffff"
+	power = 0.5
+	range = 6
+
 /datum/light_mode/default/bulb
 	name = "Default Bulb"
 
-	color = "#ffaa66"
-	power = DEFAULT_POWER
-	range = 4
+	color = "#f7e1ad" //"#ffaa66" too orange
+	power = 0.5
+	range = 6
 
 /datum/light_mode/default/bulb/emergency
 	name = "Default Emergency"

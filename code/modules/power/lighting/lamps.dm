@@ -37,14 +37,14 @@
 	                    // this is used to calc the probability the light burns out
 
 	var/rigged = FALSE // true if rigged to explode
-/*
+
 /obj/machinery/light/grim
 	icon_state = "tube2"
 	base_icon_state = "tube2"
 	glow_icon_state = "tube2"
 	exposure_icon_state = "cone"
-	inserted_bulb_type = /obj/item/weapon/light/tube/grim
-*/
+	inserted_bulb_type = /obj/item/weapon/light/tube/grimtube
+
 /obj/machinery/light/smart
 	icon_state = "stube"
 	base_icon_state = "tube" // not a typo
