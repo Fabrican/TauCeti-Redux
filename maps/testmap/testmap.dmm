@@ -3,7 +3,7 @@
 "c" = (/turf/simulated/wall,/area)
 "d" = (/obj/structure/table,/obj/item/weapon/hemostat{pixel_y = 4},/obj/item/weapon/cautery,/obj/machinery/camera{pixel_x = 22; network = list("SS13","Medical"); c_tag = "Surgery Operating 2"},/turf/simulated/floor,/area/centcom)
 "e" = (/turf/unsimulated/wall,/area/start)
-"f" = (/obj/structure/table,/obj/item/weapon/retractor,/obj/item/weapon/surgicaldrill,/obj/machinery/light/smart{icon_state = "stube"; dir = 1},/turf/simulated/floor,/area/centcom)
+"f" = (/obj/structure/table,/obj/item/weapon/retractor,/obj/item/weapon/surgicaldrill,/obj/machinery/light/grim{icon_state = "tube2"; dir = 1},/turf/simulated/floor,/area/centcom)
 "g" = (/obj/machinery/light/small{dir = 4},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "h" = (/obj/machinery/gateway{dir = 9},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "i" = (/obj/machinery/gateway{dir = 1},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
@@ -19,9 +19,9 @@
 "s" = (/obj/structure/table,/obj/item/weapon/scalpel,/obj/item/weapon/circular_saw{pixel_y = 10},/turf/simulated/floor,/area/centcom)
 "t" = (/obj/structure/table,/obj/item/weapon/bonegel{pixel_x = 4; pixel_y = 3},/obj/item/weapon/FixOVein{pixel_x = -6; pixel_y = 1},/obj/item/weapon/bonesetter,/turf/simulated/floor,/area/centcom)
 "u" = (/turf/simulated/floor,/area/centcom)
-"v" = (/obj/structure/table/reinforced,/obj/machinery/light/smart{icon_state = "stube"; dir = 1},/turf/simulated/floor,/area/centcom)
+"v" = (/obj/machinery/light/grim{icon_state = ""},/obj/machinery/light/grim{icon_state = "tube2"; dir = 1},/turf/simulated/floor,/area/centcom)
 "w" = (/obj/structure/table/reinforced,/turf/simulated/floor,/area/centcom)
-"x" = (/obj/machinery/light/smart{icon_state = "stube"; dir = 1},/turf/simulated/floor,/area/centcom)
+"x" = (/obj/machinery/light/grim{icon_state = "tube2"; dir = 1},/turf/environment/space,/turf/simulated/floor,/area/centcom)
 "y" = (/mob/living/simple_animal/crab,/turf/simulated/floor,/area/centcom)
 "z" = (/turf/simulated/floor{icon_state = "bot"},/area/centcom)
 "A" = (/obj/structure/table/reinforced,/obj/item/device/mmi,/turf/simulated/floor,/area/centcom)
@@ -36,8 +36,10 @@
 "J" = (/obj/effect/landmark{name = "Observer-Start"},/turf/simulated/floor,/area/centcom)
 "K" = (/mob/living/carbon/monkey/diona,/turf/simulated/floor,/area/centcom)
 "L" = (/obj/effect/decal/turf_decal{icon_state = "warn"; dir = 1},/turf/simulated/floor,/area/centcom)
-"M" = (/obj/machinery/light/smart,/turf/simulated/floor,/area/centcom)
+"M" = (/obj/machinery/light/grim{icon_state = "tube2"; dir = 1},/turf/simulated/floor,/area/centcom)
 "N" = (/mob/living/carbon/monkey/skrell,/turf/simulated/floor,/area/centcom)
+"O" = (/obj/machinery/light/grim,/turf/environment/space,/turf/simulated/floor,/area/centcom)
+"P" = (/obj/machinery/light/grim,/turf/simulated/floor,/area/centcom)
 "Q" = (/obj/effect/decal/turf_decal{icon_state = "warn"},/turf/simulated/floor,/area/centcom)
 
 (1,1,1) = {"
@@ -92,13 +94,13 @@ eeeeeeeeeeeeeeeaaaaaaaaaaaaablhijlbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaablmnogbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaablpqrlbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabbbbbbbbbblllllbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-eeeeeeeeeeeeeeeaaaabdfstuuuvwuuuuuuxuzuuxubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+eeeeeeeeeeeeeeeaaaabdfstuuvwwuuuuuuxuzuuMubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabuuuuuuuAwuuuuuuuuzuyuubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabuBCuuuuwwuuuuuuuuzuuDubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeHeeeeeeeaaaabuEEEuFuuuuIIJuuuuzGuuubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabuuuuuuuuuuuuuuuuuzKuuubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabuuuuuuuuuuuuuuuuuzuNuGbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-eeeeeeeeeeeeeeeaaaabuMuuuuuMuuuuuuuMuzuuMubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+eeeeeeeeeeeeeeeaaaabuOuuuuPuuuuuuuuPuzuuPubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabbbbbbbbbbLLLLLbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaabuuuuubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaabuuuukbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
