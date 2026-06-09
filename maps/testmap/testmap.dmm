@@ -19,7 +19,6 @@
 "s" = (/obj/structure/table,/obj/item/weapon/scalpel,/obj/item/weapon/circular_saw{pixel_y = 10},/turf/simulated/floor,/area/centcom)
 "t" = (/obj/structure/table,/obj/item/weapon/bonegel{pixel_x = 4; pixel_y = 3},/obj/item/weapon/FixOVein{pixel_x = -6; pixel_y = 1},/obj/item/weapon/bonesetter,/turf/simulated/floor,/area/centcom)
 "u" = (/turf/simulated/floor,/area/centcom)
-"v" = (/obj/machinery/light/grim{icon_state = ""},/obj/machinery/light/grim{icon_state = "tube2"; dir = 1},/turf/simulated/floor,/area/centcom)
 "w" = (/obj/structure/table/reinforced,/turf/simulated/floor,/area/centcom)
 "x" = (/obj/machinery/light/grim{icon_state = "tube2"; dir = 1},/turf/environment/space,/turf/simulated/floor,/area/centcom)
 "y" = (/mob/living/simple_animal/crab,/turf/simulated/floor,/area/centcom)
@@ -94,7 +93,7 @@ eeeeeeeeeeeeeeeaaaaaaaaaaaaablhijlbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaablmnogbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaablpqrlbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabbbbbbbbbblllllbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-eeeeeeeeeeeeeeeaaaabdfstuuvwwuuuuuuxuzuuMubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+eeeeeeeeeeeeeeeaaaabdfstuuMwwuuuuuuxuzuuMubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabuuuuuuuAwuuuuuuuuzuyuubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabuBCuuuuwwuuuuuuuuzuuDubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeHeeeeeeeaaaabuEEEuFuuuuIIJuuuuzGuuubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

@@ -41,9 +41,9 @@
 /obj/machinery/light/grim
 	icon_state = "tube2"
 	base_icon_state = "tube2"
+	inserted_bulb_type = /obj/item/weapon/light/tube/grimtube
 	glow_icon_state = "tube2"
 	exposure_icon_state = "cone"
-	inserted_bulb_type = /obj/item/weapon/light/tube/grimtube
 
 /obj/machinery/light/smart
 	icon_state = "stube"
