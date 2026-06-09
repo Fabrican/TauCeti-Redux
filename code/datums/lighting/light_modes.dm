@@ -33,7 +33,7 @@ var/global/list/datum/light_mode/light_modes_by_name // for admins, may differ i
 	name = "Default Grim"
 
 	color = "#ffffff"
-	power = 0.4
+	power = 0.5
 	range = 6
 
 /datum/light_mode/default/bulb
