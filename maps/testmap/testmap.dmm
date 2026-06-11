@@ -19,6 +19,7 @@
 "s" = (/obj/structure/table,/obj/item/weapon/scalpel,/obj/item/weapon/circular_saw{pixel_y = 10},/turf/simulated/floor,/area/centcom)
 "t" = (/obj/structure/table,/obj/item/weapon/bonegel{pixel_x = 4; pixel_y = 3},/obj/item/weapon/FixOVein{pixel_x = -6; pixel_y = 1},/obj/item/weapon/bonesetter,/turf/simulated/floor,/area/centcom)
 "u" = (/turf/simulated/floor,/area/centcom)
+"v" = (/obj/machinery/light/small{icon_state = "bulb"; dir = 8},/turf/unsimulated/floor{icon_state = "vaultfull"},/area/centcom)
 "w" = (/obj/structure/table/reinforced,/turf/simulated/floor,/area/centcom)
 "x" = (/obj/machinery/light/grim{icon_state = "tube2"; dir = 1},/turf/environment/space,/turf/simulated/floor,/area/centcom)
 "y" = (/mob/living/simple_animal/crab,/turf/simulated/floor,/area/centcom)
@@ -40,6 +41,7 @@
 "O" = (/obj/machinery/light/grim,/turf/environment/space,/turf/simulated/floor,/area/centcom)
 "P" = (/obj/machinery/light/grim,/turf/simulated/floor,/area/centcom)
 "Q" = (/obj/effect/decal/turf_decal{icon_state = "warn"},/turf/simulated/floor,/area/centcom)
+"R" = (/obj/machinery/light/small{icon_state = "bulb"; dir = 8},/turf/simulated/floor,/area/centcom)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -90,7 +92,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaablhijlbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-eeeeeeeeeeeeeeeaaaaaaaaaaaaablmnogbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+eeeeeeeeeeeeeeeaaaaaaaaaaaaabvmnogbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaablpqrlbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabbbbbbbbbblllllbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabdfstuuMwwuuuuuuxuzuuMubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -102,7 +104,7 @@ eeeeeeeeeeeeeeeaaaabuuuuuuuuuuuuuuuuuzuNuGbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabuOuuuuPuuuuuuuuPuzuuPubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaabbbbbbbbbbLLLLLbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaabuuuuubaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-eeeeeeeeeeeeeeeaaaaaaaaaaaaabuuuukbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+eeeeeeeeeeeeeeeaaaaaaaaaaaaabRuuukbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 eeeeeeeeeeeeeeeaaaaaaaaaaaaabQQQQQbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaabbLLLbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaacccccaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
