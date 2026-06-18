@@ -34,7 +34,7 @@ var/global/list/datum/light_mode/light_modes_by_name // for admins, may differ i
 
 	color = "#ffffff"
 	power = 0.6
-	range = 5
+	range = 6
 
 /datum/light_mode/default/bulb
 	name = "Default Bulb"
