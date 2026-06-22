@@ -15,14 +15,14 @@ SUBSYSTEM_DEF(lighting)
 	..("L:[sources_queue.len]|C:[corners_queue.len]|O:[objects_queue.len]")
 
 /datum/controller/subsystem/lighting/Initialize(timeofday)
-//	if(!initialized)
-//		cast_level_light_globally()
+	if(!initialized)
+		cast_level_light_globally()
 
 	initialized = TRUE
 	fire(init_fire = TRUE)
 
 	..()
-/*
+
 // adds level lighting mask to turfs around if any level_light_source nearby
 // /turf/proc/recast_level_light() but globally
 /datum/controller/subsystem/lighting/proc/cast_level_light_globally()
@@ -36,7 +36,7 @@ SUBSYSTEM_DEF(lighting)
 				LEVEL_LIGHTING_CAST(T)
 				break
 		CHECK_TICK
-*/
+
 /datum/controller/subsystem/lighting/fire(resumed = FALSE, init_fire = FALSE)
 	MC_SPLIT_TICK_INIT(3)
 	if(!init_fire)
