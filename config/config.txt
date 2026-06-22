@@ -262,7 +262,7 @@ REPOSITORY_LINK https://github.com/TauCetiStation/TauCetiClassic
 
 ## Replaces whatever map json file with maps/testmap.json to load testmap only.
 ## Saves alot of initialization time, since only centcomm and testmap will be loaded. For tests where map doesn't matter.
-# SUMMON_TESTMAP
+SUMMON_TESTMAP
 
 ## Force map not to load junkyard
 ## Saves some initialization time
@@ -309,7 +309,7 @@ SECOND_TOPIC_LIMIT 10
 MINUTE_TOPIC_LIMIT 100
 
 ## This config option enables or disables deathmatch arena after round end.
-DEATHMATCH_ARENA 1
+DEATHMATCH_ARENA 0
 
 ## How long in seconds after which a hard delete is treated as causing lag. This can be a float and supports a precision as low as nanoseconds.
 #HARD_DELETES_OVERRUN_THRESHOLD 0.5
