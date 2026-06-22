@@ -26,7 +26,7 @@
 "z" = (/turf/simulated/floor{icon_state = "bot"},/area/centcom)
 "A" = (/obj/structure/table/reinforced,/obj/item/device/mmi,/turf/simulated/floor,/area/centcom)
 "B" = (/obj/machinery/optable,/turf/simulated/floor,/area/centcom)
-"C" = (/obj/machinery/computer/operating,/turf/simulated/floor,/area/centcom)
+"C" = (/obj/machinery/computer/operating{light_power = 0},/turf/simulated/floor,/area/centcom)
 "D" = (/mob/living/carbon/monkey/tajara,/turf/simulated/floor,/area/centcom)
 "E" = (/obj/structure/window/thin/reinforced{icon_state = "rwindow"; dir = 9},/turf/simulated/floor,/area/centcom)
 "F" = (/obj/effect/landmark/start,/turf/simulated/floor,/area/centcom)
